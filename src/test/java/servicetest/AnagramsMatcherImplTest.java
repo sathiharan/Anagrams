@@ -89,7 +89,7 @@ public class AnagramsMatcherImplTest {
         wordList.add("tree");        
         wordList.add("race");        
         wordList.add("care");        
-        wordList.add("acer");        
+        wordList.add("acre");        
         wordList.add("bee");
         
         List<String> firstExpectedAnagram = new ArrayList<>();

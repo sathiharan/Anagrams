@@ -17,8 +17,6 @@ public class AnagramsMatcherImpl implements AnagramsMatcher{
     
     List<String> duplicateList = new ArrayList<>();
     
-   // OutputDisplay outputDisplay = new OutputDisplay();
-    //AnagramResults anagramResults = new AnagramResults();
     @Override
     public void matchAnagram(List<String> wordsList,AnagramResults anagramResults,OutputDisplay outputDisplay) throws NullPointerException{
         duplicateList.addAll(wordsList);
@@ -42,7 +40,6 @@ public class AnagramsMatcherImpl implements AnagramsMatcher{
                     duplicateList.removeAll(anagramsWordsList);
                     Collections.sort(anagramsWordsList);
                     anagramResults.uppend(anagramsWordsList);
-                    //outputDisplay.print("The output is : " + anagramsWordsList);
                 }
         }
           
