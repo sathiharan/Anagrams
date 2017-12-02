@@ -13,6 +13,6 @@ public interface AnagramsMatcher {
     
     
     
-    public void matchAnagram(List<String> wordsList,AnagramResults anagramResults,OutputDisplay outputDisplay);
+    public void matchAnagram(List<String> wordsList,AnagramResults anagramResults);
     
 }

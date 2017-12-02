@@ -1,4 +1,3 @@
-
 package com.smdg.anagrams;
 
 /**
@@ -6,7 +5,7 @@ package com.smdg.anagrams;
  * @author haran
  */
 public class OutputDisplay {
-    
+
     public OutputDisplay() {
     }
 
@@ -17,5 +16,5 @@ public class OutputDisplay {
     public void println() {
         System.out.println();
     }
-    
+
 }

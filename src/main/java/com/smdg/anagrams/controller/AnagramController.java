@@ -18,10 +18,9 @@ import java.util.stream.Collectors;
  */
 public class AnagramController {
     
-      String line;
         List<String> wordsList = new ArrayList<>();
-        List<String> duplicateWordsList = new ArrayList<>();
-        List<String> anagramsWordsList;
+        //List<String> duplicateWordsList = new ArrayList<>();
+        //List<String> anagramsWordsList;
         
         
         public void run(){
@@ -42,7 +41,7 @@ public class AnagramController {
             System.out.println("wordList:" + wordsList);
             
                 AnagramsMatcher anagramsMatcher = new AnagramsMatcherImpl();
-                anagramsMatcher.matchAnagram(wordsList,anagramResults,outputDisplay);
+                anagramsMatcher.matchAnagram(wordsList,anagramResults);
                 outputDisplay.print("------------------------------------- start -------------------------------------------------");
                 for (List<String> angrmResults : anagramResults.getResults()) {                   
                     outputDisplay.print("The output is : " + angrmResults);                    
