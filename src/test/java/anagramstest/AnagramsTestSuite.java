@@ -1,4 +1,3 @@
-
 package anagramstest;
 
 import filescannertest.FileScannerTest;
@@ -23,5 +22,5 @@ public class AnagramsTestSuite {
     @AfterClass
     public static void tearDownClass() throws Exception {
     }
-    
+
 }

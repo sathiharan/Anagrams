@@ -25,7 +25,6 @@ public class AnagramController {
         AnagramResults anagramResults = new AnagramResults();
 
         try {
-
             Scanner input = new Scanner(System.in);
             System.out.println("Specify location of the sample.txt file");
             System.out.println("Enter the location:");
