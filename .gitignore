@@ -1,2 +1,4 @@
-*/target/*
+**/target/*
 *.war
+*nbactions.xml
+*nbproject/project.properties
